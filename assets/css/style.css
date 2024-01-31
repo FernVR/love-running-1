@@ -9,7 +9,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Lato', sans-serif;
+    
 }
 
 /* General styles */
@@ -20,8 +20,12 @@ body {
     flex-direction: column;
     /* Generic project styles */
     color: #3a3a3a;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Lato' , sans-serif;       /* adding the font doesn't work! no idea how to fix */
 
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
 }
 
 
