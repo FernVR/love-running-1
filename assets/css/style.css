@@ -102,10 +102,10 @@ main {
     /* make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 47px;
-     
-     /* Enable flex properties for child elements */
-     display: flex;
-     flex-direction: column;
+
+    /* Enable flex properties for child elements */
+    display: flex;
+    flex-direction: column;
 }
 
 /* Hero Section */
@@ -391,9 +391,9 @@ main {
 
     }
 
-      /* Gallery */
+    /* Gallery */
 
-      #photos {
+    #photos {
         column-count: 4;
     }
 }
@@ -426,5 +426,5 @@ main {
         align-self: flex-end;
     }
 
-  
+
 }
